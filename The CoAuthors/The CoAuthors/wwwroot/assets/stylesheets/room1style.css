@@ -1,0 +1,270 @@
+﻿/* NEW STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial;
+}
+
+/* 
+  Colour Palette:
+  1A1A1D
+  3B1C32
+  6A1E55
+  A64D79
+*/
+
+.pallattePreview {
+    color: #1A1A1D;
+    color: #3B1C32;
+    color: #6A1E55;
+    color: #A64D79;
+}
+
+/* For the clickable elements, adjust the top and left to move it across the image */
+/* use the same units I have here in the template */
+#bookTemplate {
+    height: 28px;
+    top: 32rem;
+    left: 20rem;
+}
+
+#glassesTemplate {
+    height: 14px;
+    top: 32rem;
+    left: 2.9rem;
+}
+
+#necklaceTemplate {
+    height: 45px;
+    top: 44rem;
+    left: 42rem;
+}
+
+#keyTemplate {
+    height: 10px;
+    top: 19.2rem;
+    left: 24rem;
+}
+
+/* Next room */
+#nextRoomButton {
+    position: absolute;
+    z-index: 2;
+    height: 17rem;
+    width: 8rem;
+    top: 5rem;
+    left: 36rem;
+    background-color: #12121200;
+    border: none;
+    border-top-right-radius: 120px 40px;
+    border-bottom-left-radius: 120px 40px;
+    transition: background-color 0.3s;
+}
+
+    #nextRoomButton:hover {
+        transition: background-color 0.3s;
+        background-color: #1212122a;
+    }
+
+
+/* All clickable elements */
+.clickable {
+    position: absolute;
+    z-index: 2;
+    transition: filter 0.2s, transform 0.2s;
+}
+
+    .clickable:hover {
+        transition: filter 0.2s, transform 0.2s;
+        /* transform: scale(0.98); */
+        filter: brightness(0.9);
+    }
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* GAME BOX */
+
+.gameBox {
+    /* background-color: #795e79; */
+    height: 745px;
+    width: 742px;
+    margin: 1.5rem;
+    padding: 0 auto;
+}
+
+.background {
+    height: 745px;
+    width: 742px;
+    user-select: none;
+}
+
+
+
+/* ASIDE */
+.hudSidePanel {
+    /* background-color: #e0a2a2; */
+    margin: 1.5rem 1.5rem 1.5rem 0;
+    width: 47vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* INVENTORY BOX */
+.inventoryBox {
+    padding: 2rem;
+    background-color: #6A1E55;
+    width: 100%;
+}
+
+    .inventoryBox h2 {
+        font-size: 3rem;
+        color: #e980b4;
+    }
+
+    .inventoryBox table {
+        border: 10px inset #A64D79;
+        padding: 0.8rem;
+    }
+
+    .inventoryBox td {
+        border: 4px outset #A64D79;
+        transition: background-color 0.1s, transform 0.1s;
+        background-color: #8e476b;
+        padding: 2.5rem;
+    }
+
+        .inventoryBox td:hover {
+            transition: background-color 0.1s;
+            background-color: #804060;
+        }
+
+        .inventoryBox td:active {
+            transition: transform 0.1s;
+            transform: scale(0.98);
+            border-style: inset;
+        }
+
+
+
+/* DIALOGUE BOX */
+.dialogueBox {
+    padding: 2rem;
+    background-color: #6A1E55;
+    width: 100%;
+}
+
+    .dialogueBox h2 {
+        font-size: 3rem;
+        color: #e980b4;
+    }
+
+.characterContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.character {
+    width: 5vw;
+    background-color: #A64D79;
+    border-radius: 20px;
+}
+
+.talkBox {
+    padding: 2rem;
+    border: 6px outset #A64D79;
+    transition: background-color 0.1s;
+    background-color: #8e476b;
+}
+
+    .talkBox:hover {
+        transition: background-color 0.1s;
+        background-color: #804060;
+    }
+
+@media screen and (max-width: 1400px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inventoryBox td {
+        padding: 1.4rem;
+    }
+
+    .gameBox {
+        margin-top: 0;
+    }
+
+    .clickable {
+        position: relative;
+    }
+
+    .hudSidePanel {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    #bookTemplate {
+        height: 28px;
+        top: 32rem;
+        left: 20rem;
+    }
+
+    #glassesTemplate {
+        height: 14px;
+        top: 32rem;
+        left: 2.9rem;
+    }
+
+    #necklaceTemplate {
+        height: 45px;
+        top: 44rem;
+        left: 42rem;
+    }
+
+    #keyTemplate {
+        height: 10px;
+        top: 19.2rem;
+        left: 24rem;
+    }
+
+    /* Next room */
+    #nextRoomButton {
+        height: 17rem;
+        width: 8rem;
+        top: 5rem;
+        left: 36rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .background {
+        width: 340px;
+    }
+
+    .hudSidePanel {
+        margin: 0;
+    }
+
+    .inventoryBox table {
+        padding: 0.1rem;
+    }
+
+    .inventoryBox td {
+        padding: 0.2rem;
+    }
+}

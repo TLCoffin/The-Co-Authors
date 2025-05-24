@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\Bedroom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Bedroom.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\BookCAOD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\BookCAOD.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\Circle.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Circle.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\DudeOne.png",
+      "PackagePath": "staticwebassets\\assets\\images\\DudeOne.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\DudeThree.png",
+      "PackagePath": "staticwebassets\\assets\\images\\DudeThree.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\DudeTwo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\DudeTwo.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\GlassesCAOD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\GlassesCAOD.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\KeyCAOD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\KeyCAOD.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\LivingRoomImgCAOD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\LivingRoomImgCAOD.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\NecklaceCAOD.png",
+      "PackagePath": "staticwebassets\\assets\\images\\NecklaceCAOD.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\images\\Stairway.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Stairway.png"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\stylesheets\\room1style.css",
+      "PackagePath": "staticwebassets\\assets\\stylesheets\\room1style.css"
+    },
+    {
+      "Id": "C:\\Users\\trevo\\OneDrive\\Documents\\School\\A-Grade-12-MITT\\Zi-CoAuthors\\The CoAuthors\\The CoAuthors\\wwwroot\\assets\\stylesheets\\style.css",
+      "PackagePath": "staticwebassets\\assets\\stylesheets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.The CoAuthors.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.The CoAuthors.props",
+      "PackagePath": "build\\The CoAuthors.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.The CoAuthors.props",
+      "PackagePath": "buildMultiTargeting\\The CoAuthors.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.The CoAuthors.props",
+      "PackagePath": "buildTransitive\\The CoAuthors.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

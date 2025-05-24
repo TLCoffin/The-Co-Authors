@@ -1,0 +1,67 @@
+﻿@page
+@{
+    ViewData["Title"] = "The Co-Authors Of Despair";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Co-Authors Of Despair</title>
+    <link rel="stylesheet" href="./assets/stylesheets/room1style.css" />
+    <script>
+        function nextRoom() {
+            window.location.href = "room2"
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section class="gameBox">
+            <!-- All clickable images go here with class "clickable" -->
+            <img src="./assets/images/BookCAOD.png" class="clickable" id="bookTemplate" />
+            <img src="./assets/images/GlassesCAOD.png" class="clickable" id="glassesTemplate" />
+            <img src="./assets/images/NecklaceCAOD.png" class="clickable" id="necklaceTemplate" />
+            <img src="./assets/images/KeyCAOD.png" class="clickable" id="keyTemplate" />
+            <img src="./assets/images/LivingRoomImgCAOD.png" class="background" />
+            <button id="nextRoomButton" class="clickable" onclick="nextRoom()"></button>
+        </section>
+        <aside class="hudSidePanel">
+            <section class="inventoryBox">
+                <h2>Inventory</h2>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="dialogueBox">
+                <div class="characterContainer">
+                    <img class="character" src="./Assets/DudeThree.png" alt="" />
+                    <h2>Lucy</h2>
+                </div>
+                <div class="talkBox"></div>
+            </section>
+        </aside>
+    </main>
+</body>
+</html>
