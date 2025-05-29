@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = true
+build_property.InvariantGlobalization = true
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = The_CoAuthors
+build_property.RootNamespace = The_CoAuthors
+build_property.ProjectDir = C:\Users\trevo\OneDrive\Documents\School\A-Grade-12-MITT\Zi-CoAuthors\TheCoAuthorsMaster\The CoAuthors\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\trevo\OneDrive\Documents\School\A-Grade-12-MITT\Zi-CoAuthors\TheCoAuthorsMaster\The CoAuthors
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/room1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccm9vbTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trevo/OneDrive/Documents/School/A-Grade-12-MITT/Zi-CoAuthors/TheCoAuthorsMaster/The CoAuthors/Pages/room2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccm9vbTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

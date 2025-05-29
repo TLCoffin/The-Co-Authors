@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\The CoAuthors",
+    "\\The CoAuthors\\Controllers",
+    "\\The CoAuthors\\Models",
+    "\\The CoAuthors\\Pages",
+    "\\The CoAuthors\\wwwroot",
+    "\\The CoAuthors\\wwwroot\\assets",
+    "\\The CoAuthors\\wwwroot\\assets\\images",
+    "\\The CoAuthors\\wwwroot\\assets\\scripts",
+    "\\The CoAuthors\\wwwroot\\assets\\stylesheets"
+  ],
+  "SelectedNode": "\\The CoAuthors\\Controllers\\AIPromptStringBuilder.cs",
+  "PreviewInSolutionExplorer": false
+}

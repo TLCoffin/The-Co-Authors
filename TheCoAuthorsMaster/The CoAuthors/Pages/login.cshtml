@@ -1,0 +1,62 @@
+﻿@page
+@{
+    ViewData["Title"] = "The Co-Authors Of Despair";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Co-Authors Of Despair</title>
+    <link rel="stylesheet" href="~/assets/stylesheets/style.css">
+    <link rel="stylesheet" href="~/assets/stylesheets/nav.css" />
+    <script>
+        // DOMContentLoaded is to make sure body stuff loads before executing js
+                document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById("login-form").addEventListener("submit", async function (event) {
+                        event.preventDefault();
+
+                        const username = document.getElementById("username").value;
+                        const password = document.getElementById("password").value;
+
+                        const response = await fetch('/api/account/login', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({ username, password }),
+                        });
+
+                        if (response.ok) {
+                            window.location.href = '/room1';
+                        } else {
+                            const error = await response.json();
+                            alert(error.message);
+                        }
+                    });
+                });</script>
+    <script src="~/assets/scripts/nav.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index"><img src="~/assets/images/Logo.png" alt="company logo" /></a>
+        <nav>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="register">Sign Up</a></li>
+            </ul>
+            <a onclick="Logout()">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Login</h2>
+        <form class="authentication-form" id="login-form">
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="submit" id="login">Login</button>
+        </form>
+        <a href="register">Don't have an account? Register.</a>
+    </main>
+</body>
+</html>
