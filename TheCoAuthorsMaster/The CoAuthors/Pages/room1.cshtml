@@ -34,6 +34,7 @@
     </header>
     <main>
         <section class="gameBox">
+        <div class="relativeContainer">
             <!-- All clickable images go here with class "clickable" -->
             <img src="~/assets/images/BookCAOD.png" onclick="addToInventory('book')" class="clickable" id="bookTemplate" />
             <img src="~/assets/images/GlassesCAOD.png" onclick="addToInventory('glasses')" class="clickable" id="glassesTemplate" />
@@ -41,6 +42,7 @@
             <img src="~/assets/images/KeyCAOD.png" onclick="addToInventory('key');keyClicked();" class="clickable" id="keyTemplate" />
             <img src="~/assets/images/LivingRoomImgCAOD.png" class="background" />
             <button id="nextRoomButton" class="clickable"></button>
+        </div>
         </section>
         <aside class="hudSidePanel">
             <section class="inventoryBox">
