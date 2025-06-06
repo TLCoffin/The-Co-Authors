@@ -1,0 +1,93 @@
+﻿@page
+@{
+    ViewData["Title"] = "The Co-Authors Of Despair";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Co-Authors Of Despair</title>
+    <link rel="stylesheet" href="./assets/stylesheets/room1style.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/nav.css" />
+    <script>
+        function nextRoom() {
+            window.location.href = "room2"
+        }
+    </script>
+    <script src="~/assets/scripts/inventoryAdds.js"></script>
+    <script src="~/assets/scripts/nav.js"></script>
+    <script src="~/assets/scripts/inventory.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index"><img src="~/assets/images/Logo.png" alt="company logo" /></a>
+        <nav>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="register">Sign Up</a></li>
+            </ul>
+            <a onclick="Logout()">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="gameBox">
+            <!-- All clickable images go here with class "clickable" -->
+            <img src="~/assets/images/BookCAOD.png" onclick="addToInventory('book')" class="clickable" id="bookTemplate" />
+            <img src="~/assets/images/GlassesCAOD.png" onclick="addToInventory('glasses')" class="clickable" id="glassesTemplate" />
+            <img src="~/assets/images/NecklaceCAOD.png" onclick="addToInventory('necklace')" class="clickable" id="necklaceTemplate" />
+            <img src="~/assets/images/KeyCAOD.png" onclick="addToInventory('key');keyClicked();" class="clickable" id="keyTemplate" />
+            <img src="~/assets/images/LivingRoomImgCAOD.png" class="background" />
+            <button id="nextRoomButton" class="clickable"></button>
+        </section>
+        <aside class="hudSidePanel">
+            <section class="inventoryBox">
+                <h2>Inventory</h2>
+                <table>
+                    <tr>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                        <td><img src="~/assets/images/InventoryBlankCAOD.png" alt="" /></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="dialogueBox">
+                <div class="characterContainer">
+                    <img class="character" src="~/assets/images/DudeThree.png" alt="" />
+                    <h2>Lucy</h2>
+                </div>
+                <div class="talkBox" id="talkBox"></div>
+            </section>
+        </aside>
+    </main>
+    <script>
+        fetch("http://localhost/api/AIPromptStringBuilder/firstNpcPrompt?roomNumber=1")
+            .then(response => response.text())
+            .then(prompt => {
+                document.getElementById("talkBox").textContent = prompt;
+            })
+            .catch(error => {
+                console.error("There was an error when fetch", error);
+            });
+    </script>
+    <script src="~/assets/scripts/keyDetection.js"></script>
+</body>
+</html>       
