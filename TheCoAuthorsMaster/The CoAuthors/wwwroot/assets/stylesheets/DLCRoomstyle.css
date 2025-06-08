@@ -1,0 +1,148 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial;
+}
+
+/* 
+    Colour Palette:
+    1A1A1D
+    3B1C32
+    6A1E55
+    A64D79
+*/
+
+.pallattePreview {
+    color: #1A1A1D;
+    color: #3B1C32;
+    color: #6A1E55;
+    color: #A64D79;
+}
+
+.background{
+    margin: 1.1rem;
+    width: 95%;
+    height: 400px
+}
+
+#demonTemplate {
+    position: absolute;
+    z-index: 2;
+    height: 300px;
+    top: 10rem;
+    left: 24rem;
+}
+
+
+/* DIALOGUE BOX */
+.dialogueBox {
+    margin: 1.1rem;
+    padding: 1.8rem;
+    background-color: #6A1E55;
+    width: 95%;
+}
+
+    .dialogueBox h2 {
+        font-size: 3rem;
+        color: #e980b4;
+    }
+
+.characterContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.character {
+    width: 4vw;
+    background-color: #A64D79;
+    border-radius: 20px;
+}
+
+.talkBox {
+    padding: 2rem;
+    border: 6px outset #A64D79;
+    transition: background-color 0.1s;
+    background-color: #8e476b;
+}
+
+    .talkBox:hover {
+        transition: background-color 0.1s;
+        background-color: #804060;
+    }
+
+/* STYLES FOR INVENTORY IMAGES */
+.inventoryBox td img {
+    height: 25px;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .background {
+        display: flex;
+        justify-content: center;
+        width: 98%;
+        height: 30rem;
+        margin: 1rem;
+        user-select: none;
+    }
+
+    #demonTemplate {
+        height: 30rem;
+        top: 7rem;
+        left: 20rem;
+    }
+    .dialogueBox{
+        width: 98%;
+    }
+    
+}
+
+@media screen and (min-width: 1500px) {
+    .background {
+        display: flex;
+        justify-content: center;
+        width: 98%;
+        height: 40rem;
+        margin: 1rem;
+        user-select: none;
+    }
+
+    #demonTemplate {
+        height: 30rem;
+        top: 13rem;
+        left: 30rem;
+    }
+
+    .dialogueBox {
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .background {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        height: 50rem;
+        margin: 1rem;
+        user-select: none;
+    }
+
+    #demonTemplate {
+        height: 30rem;
+        top: 20rem;
+        left: 30rem;
+    }
+
+    .dialogueBox {
+        width: 98%;
+    }
+}
+
+
