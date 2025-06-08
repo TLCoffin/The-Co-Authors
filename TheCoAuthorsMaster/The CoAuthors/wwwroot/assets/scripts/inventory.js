@@ -4,7 +4,14 @@ let itemImageLinkName = {
     "book": "/assets/images/BookCAOD.png",
     "glasses": "/assets/images/GlassesCAOD.png",
     "key": "/assets/images/KeyCAOD.png",
-    "necklace": "/assets/images/NecklaceCAOD.png"
+    "necklace": "/assets/images/NecklaceCAOD.png",
+    "blood": "/assets/images/BloodCAOD.png",
+    "bottle": "/assets/images/BottleCAOD.png",
+    "pages": "/assets/images/PagesCAOD.png",
+    "key2": "/assets/images/KeyCAOD.png",
+    "newspaper": "/assets/images/NewspaperCAOD.png",
+    "knife": "/assets/images/KnifeCAOD.png",
+    "picture": "/assets/images/PictureFrameCAOD.png"
 };
 
 
